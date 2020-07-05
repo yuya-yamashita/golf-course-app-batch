@@ -26,7 +26,7 @@ def lambda_handler(event:, context:)
         # TODO: 取得した情報をDynamoDBに保存する
       end
       # 次のページが存在しない場合は、　break させる
-      break unless course.has_next_page?
+      break unless courses.has_next_page?
     end
   end
 
