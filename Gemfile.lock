@@ -20,7 +20,7 @@ GEM
       multi_json (~> 1.11)
       retriable (~> 2.0)
     hurley (0.2)
-    jmespath (1.4.0)
+    jmespath (1.6.1)
     multi_json (1.14.1)
     rakuten_web_service (1.12.0)
     retriable (2.1.0)
